@@ -1,0 +1,45 @@
+@import "style";
+
+.select-button {
+  display: inline-block;
+  // border: #000066 solid;
+  // padding-right: 10px;
+  // padding: auto;
+  &.disabled {
+    cursor: pointer;
+    background-color: #f1f1f1;
+    transition: 0.2s ease;
+  }
+}
+.angular-editor-toolbar{
+  //overflow: inherit;
+}
+.font-names{
+  background-color: white!important;
+    border-radius: 0px!important;
+    border: 1px solid #dddddd!important;
+}
+
+.font-pickr-options{
+  border: 0 solid #ddd;
+  cursor: pointer;
+  display: block;
+  min-width: 2rem;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  text-align: left;
+  width: 100%;
+  z-index: 3;
+}
+backcss{
+  width: 24px;
+  position: relative;
+  top: 1px;
+  height: 24px;
+  pointer-events: none;
+}
+.color{
+  position: relative;
+  top: -7px;
+}

@@ -1,0 +1,13 @@
+<div class="container">
+
+  <input id="test_input">
+  <br><br>
+  <angular-editor id="editor1" [(ngModel)]="htmlContent1" [config]="config" (ngModelChange)="onChange($event)"
+                  (blur)="onBlur($event)" (data)="submit($event)" [index]="index"></angular-editor>
+
+
+</div>
+<div>
+  <button (click)="index = ! index">Submit</button>
+</div>
+
